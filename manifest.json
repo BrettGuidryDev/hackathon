@@ -9,7 +9,7 @@
     },
     "permissions": ["<all_urls>", "tabs", "notifications", "storage", "unlimitedStorage", "downloads"],
     "background": {
-      "service_worker": "background.js"
+      "service_worker": "scripts.js"
     },
     "action":{
       "default_popup": "popup.html",
@@ -18,8 +18,9 @@
     "content_scripts": [ 
       {
         "matches": ["*://*/*"],
-        "js": ["background.js"]
+        "js": ["scripts.js"]
       }
     ]
         
   }
+  

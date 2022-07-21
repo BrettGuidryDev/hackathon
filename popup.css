@@ -1,24 +1,23 @@
-/* #main {
-  height: 30px;
-  width: 300px;
-  margin: 10px;
-  border: 2px;
+#main {
+font-size: 1em;
+align-content: center;
+justify-content: center;
+}
 
-} */
+.ftri {
+  font: 
+}
 
  #siteGet {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 600px;
+  height: 500px;
 }
 
 .squares {
   
   width: 400px;
-  
-  border: 1px solid black;
-  background-color: pink;
   list-style-type: none
 } 
 
