@@ -1,5 +1,25 @@
 {
-    "manifest_version":2,
-    "version":"1.0",
-    "name":"Test",
+    
+    "manifest_version": 3,
+    "name": "My Hackathon Extension - Webscrape",
+    "version": "1.0",
+    "description": "Alex & Brett's Hackathon W",
+    "icons": {
+      "32": "icon.png" 
+    },
+    "permissions": ["<all_urls>", "tabs", "notifications", "storage", "unlimitedStorage", "downloads"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action":{
+      "default_popup": "popup.html",
+      "default_icon": {"32":"icon.png"}
+    },
+    "content_scripts": [ 
+      {
+        "matches": ["*://*/*"],
+        "js": ["background.js"]
+      }
+    ]
+        
   }

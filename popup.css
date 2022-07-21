@@ -1,0 +1,48 @@
+/* #main {
+  height: 30px;
+  width: 300px;
+  margin: 10px;
+  border: 2px;
+
+} */
+
+ #siteGet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+
+.squares {
+  
+  width: 400px;
+  
+  border: 1px solid black;
+  background-color: pink;
+  list-style-type: none
+} 
+
+.square {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border: solid 4px black;
+  display: inline-block;
+  transition: background 0.65s;
+  margin-bottom: -5px;
+  margin-right: -5px;
+  background-color: red;
+  color: red;
+}
+
+#stretchGetButton{
+  margin-left: 125px;
+}
+
+.instructor {
+  display: flex;
+  justify-content: center;
+}

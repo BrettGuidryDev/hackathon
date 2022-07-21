@@ -1,0 +1,23 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "Hackathon extension",
+  "main": "background.js",
+  "scripts": {
+    "test": "console.log('test')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lurkbot9000/hackathon.git"
+  },
+  "author": "Brett and Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lurkbot9000/hackathon/issues"
+  },
+  "homepage": "https://github.com/Lurkbot9000/hackathon#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
