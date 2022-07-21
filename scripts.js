@@ -37,9 +37,9 @@ const randomizeColors = () =>{
   //use math.random to 
   const allBoxes = document.querySelectorAll('.square')
   allBoxes.forEach((box) => {
-    box.style.backgroundColor = colors[Math.floor(Math.random()* (colors.length-1))];
+    box.style.backgroundColor = colors[Math.floor(Math.random()* colors.length)];
   })
-  console.log(colors[Math.floor(Math.random()* (colors.length))])
+  console.log(colors[Math.floor(Math.random()* colors.length)])
 
 }
 
